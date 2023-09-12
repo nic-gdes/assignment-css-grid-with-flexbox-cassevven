@@ -49,10 +49,11 @@ a {
 
 .section:nth-child(5), .section:nth-child(6) {
     display: flex;
-    padding: 20px;
+    padding: 35px;
     background-color: rgb(233, 227, 233);
     text-align: center;
     flex-direction: column;
+    
 }
 
 @media (max-width: 768px) {
