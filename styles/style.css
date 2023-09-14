@@ -6,6 +6,8 @@ body {
 
 h1 {
     font-size: 3em;
+    padding-right: 80px;
+    
 }
 
 
@@ -17,15 +19,22 @@ h1 {
 
 .section:nth-child(1) {
     display: flex;
-    justify-content: space-between;
-    padding: 25px 50px;
+    justify-content: space-around;
+    padding: 80px;
     align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 90%;
+    max-height: 100%;
+
 
 }
 
 ul {
     list-style: none;
-    line-height: 25px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .section:nth-child(2) {
@@ -34,12 +43,19 @@ ul {
     justify-content: space-between;
     padding: 10px 150px;
     background-color: rgb(216, 185, 216);
+    gap: 40px;
+    flex-wrap: wrap;
+    line-height: 5px;
+    
 }
 
 .section:nth-child(3) {
     display: flex;
-    padding: 10%;
+    padding: 3% 100px;
     justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    
 }
 
 a {
@@ -55,7 +71,14 @@ a:hover {
 .section:nth-child(4) {
     display: flex;
     padding: 20px;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 2%;
+    max-width: 90%;
+    width: 100vw;
+    justify-items: center;
+    gap: 35px;
+    align-self: center;
     
     
 }
@@ -75,6 +98,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     padding: 10%;
+    text-align: left;
     justify-content: space-between;
     background-image: linear-gradient( rgb(175, 174, 175),  rgb(128, 205, 145));
 }
